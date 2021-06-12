@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Vue3.0 源码揭秘',
   description: 'Just playing around',
-  base: "/vue3.0-analysis",
+  base: "/vue3.0-analysis/",
   themeConfig: {
     nav: [
       { text: '概况', link: '/overview/' },
