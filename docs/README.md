@@ -4,7 +4,7 @@ heroImage: /logo.png
 heroText: Vue 3.0 源码揭秘
 tagline: 逐行解析源码细节
 actionText: 开始吧 →
-actionLink: /guide/
+actionLink: /overview/
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
