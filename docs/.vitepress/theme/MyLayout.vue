@@ -42,7 +42,6 @@ watch(
 <template>
   <Layout>
     <template #page-bottom>
-      <PageEdit />
       <div>
         <!-- <Comment v-if="enableComment" /> -->
         <UtterancCommment v-if="enableComment" />
