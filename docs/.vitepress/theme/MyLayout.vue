@@ -2,8 +2,9 @@
 import { watch, nextTick, ref } from "vue";
 import DefaultTheme from "vitepress/theme";
 import md5 from "md5";
-import Comment from "../../components/comment/index.vue";
-import UtterancCommment from "../../components/UtterancCommment/index.vue";
+import PageEdit from "../components/PageEdit.vue"
+import Comment from "../components/comment/index.vue";
+import UtterancCommment from "../components/UtterancCommment/index.vue";
 import { useRouter } from "vitepress";
 import { onMounted } from "vue";
 import { generateTongji } from "../utils";
@@ -42,6 +43,7 @@ watch(
 <template>
   <Layout>
     <template #page-bottom>
+      <PageEdit />
       <div>
         <!-- <Comment v-if="enableComment" /> -->
         <UtterancCommment v-if="enableComment" />

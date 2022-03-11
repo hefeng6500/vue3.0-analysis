@@ -3,7 +3,17 @@ module.exports = {
   lang: "zh-CN",
   title: "Vue.js 3 设计和实现",
   description: "hefeng6500 的前端学习笔记，记录学习历程，分享学习总结！",
+  lastUpdated: true,
+
   themeConfig: {
+    repo: 'hefeng6500/vue3.0-analysis',
+    docsDir: 'docs',
+    docsBranch: 'main',
+    editLinks: true,
+    editLinkText: '在 GitHub 上编辑此页面',
+    lastUpdated: '上次更新',
+
+
     nav: [
       { text: "首页", link: "/" },
       { text: "mini-vue", link: "/mini-vue/" },
