@@ -39,7 +39,7 @@ jobs:
       with:
         ACCESS_TOKEN: ${{ secrets.DEPLOY_KEY }}
         BRANCH: gh-pages
-        FOLDER: docs/.vuepress/dist
+        FOLDER: docs/.vitepress/dist
         REPOSITORY_NAME: hefeng6500/hefeng6500.github.io
         TARGET_FOLDER: vue3.0-analysis
 
