@@ -1,11 +1,22 @@
 {
+  "name": "vue3.0-analysis",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "serve": "vuepress dev docs",
-    "start": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
   },
+  "repository": "https://github.com/hefeng6500/vue3.0-analysis.git",
+  "author": "hefeng6500 <2443992009@qq.com>",
+  "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "vitepress": "^0.22.3"
+  },
+  "dependencies": {
+    "gitalk": "^1.7.2",
+    "md5": "^2.3.0"
   }
 }
