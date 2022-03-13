@@ -27,6 +27,10 @@ module.exports = {
             {
               text: "Rollup基础环境搭建",
               link: "/mini-vue/env/base-env",
+            },
+            {
+              text: "使用esbuild重构dev打包环境",
+              link: "mini-vue/env/dev-use-esbuild"
             }
           ],
         },
