@@ -6,13 +6,12 @@ module.exports = {
   lastUpdated: true,
 
   themeConfig: {
-    repo: 'hefeng6500/vue3.0-analysis',
-    docsDir: 'docs',
-    docsBranch: 'main',
+    repo: "hefeng6500/vue3.0-analysis",
+    docsDir: "docs",
+    docsBranch: "main",
     editLinks: true,
-    editLinkText: '在 GitHub 上编辑此页面',
-    lastUpdated: '上次更新',
-
+    editLinkText: "在 GitHub 上编辑此页面",
+    lastUpdated: "上次更新",
 
     nav: [
       { text: "首页", link: "/" },
@@ -30,8 +29,12 @@ module.exports = {
             },
             {
               text: "使用esbuild重构dev打包环境",
-              link: "mini-vue/env/dev-use-esbuild"
-            }
+              link: "mini-vue/env/dev-use-esbuild",
+            },
+            {
+              text: "搭建测试环境",
+              link: "mini-vue/env/test-env",
+            },
           ],
         },
         {
@@ -40,16 +43,16 @@ module.exports = {
             {
               text: "reactivity",
               link: "/mini-vue/react/reactivity",
-            }
-          ]
-        }
+            },
+          ],
+        },
       ],
-      "analysis": [
+      analysis: [
         {
           text: "导读",
-          link: "/vue3-analysis/guide"
-        }
-      ]
+          link: "/vue3-analysis/guide",
+        },
+      ],
     },
   },
 };
