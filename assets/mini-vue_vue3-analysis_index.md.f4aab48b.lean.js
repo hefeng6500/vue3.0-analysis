@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.041b2baf.js";const l='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"mini-vue/vue3-analysis/index.md","lastUpdated":1646996797000}',r={};function n(s,o,c,i,d,p){return a(),t("div")}var f=e(r,[["render",n]]);export{l as __pageData,f as default};
